@@ -132,7 +132,7 @@ Create Private Opportunity Test
     ClickElement           xpath=//button[@title="Close this window"]
     ClickElement              xpath=(//span[text()\='Show Actions'])[1]
     ClickElement              xpath=//a[@title\='Edit']/div/ancestor::li
-    TypeText               *Opportunity Name            Inmobi
+    TypeText               *Opportunity Name            Thomson Reuters
     wait                   3s
     ClickElement           xpath=//button[@name="SaveEdit"]
     ${success_message}=    GetText                     //span[@class\="toastMessage slds-text-heading--small forceActionsText"]
